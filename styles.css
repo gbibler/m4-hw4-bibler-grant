@@ -1,0 +1,27 @@
+header {
+    font-size: 15px;
+}
+
+a {
+    color: aqua
+}
+
+body {
+    background-color: tan;
+}
+
+h1, h2 {
+    color: rgb(203, 4, 4);
+}
+
+section.Introduction, section.Origin, section.Appearance, section.Discography, section.FirstAlbum {
+    text-align: center;
+}
+
+section > article > h2 {
+    color: rgb(179, 10, 185);
+}
+
+h2 ~ p {
+    color: rgb(3, 3, 137);
+}
